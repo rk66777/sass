@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app/base/main';
+*{
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.text-primary{
+    color: $primary;
+}
+.btn-primary{
+    background-color: $primary;
+}

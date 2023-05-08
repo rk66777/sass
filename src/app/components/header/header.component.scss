@@ -1,0 +1,43 @@
+@import '../../base/main';
+.header{
+    .offer-banner{
+        background-color: $primary;
+        height: 3rem;
+        line-height: 3rem;
+        p{
+            text-align: center;
+            color: $white;
+        }
+    }
+    .header-container{
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: $primary;
+                    &:hover{
+                        text-decoration: underline;
+                        color: $danger;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@include desktop{
+    .header{
+        .offer-banner{
+            height: 2.5rem;
+            line-height: 2.5rem;
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+}
